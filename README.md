@@ -45,7 +45,6 @@ filepath=/home/debian/javaProgram/exportGA/
 
 set your database information into _`application.properties`_. this sample work with MySql DataBase:
 ```
-
 spring.datasource.url=jdbc:mysql://localhost:3306/schema?useSSL=false
 spring.datasource.username=username
 spring.datasource.password=password
@@ -53,5 +52,5 @@ spring.datasource.password=password
 
 ### Step 4. Run the Program
 
-Run the Main method from class _`GameAnalyticsExportData.java`_. Spring boot will be started and logs can help you to inform
+Run the **Main method** from class _`GameAnalyticsExportData.java`_. Spring boot will be started and logs can help you to inform
 about what happened in the background.
